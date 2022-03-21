@@ -1,0 +1,96 @@
+.body {
+  background-color: lightslategray;
+}
+.nav-main {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-color: lightgray;
+  display: flex;
+  z-index: 1000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+}
+#btn-toggle-nav {
+  width: 60px;
+  height: 100%;
+  background-color: lightslategray;
+  background-image: url("Menu_bar_2-512.webp");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  cursor: pointer;
+}
+.btn-toggle-nav:hover {
+  opacity: 0.5;
+}
+.lightblue-background {
+  background-color: lightblue;
+}
+.lightpink-background {
+  background-color: lightpink;
+}
+.lightseagreen-background {
+  background-color: lightseagreen;
+}
+.lightyellow-background {
+  background-color: lightyellow;
+}
+.lightsalmon-background {
+  background-color: lightsalmon;
+}
+.nav-sidebar {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  width: 50px;
+  padding: 0.5px;
+  height: calc(100vh - 60px);
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.nav-sidebar ul {
+  padding-top: 15px;
+}
+.nav-sidebar ul li button {
+  list-style: none;
+  display: block;
+  height: 40px;
+  padding-top: 0 10px;
+  width: 200px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: justify;
+  border: 3px solid lightslategrey;
+  border-radius: 50px;
+  background-color: lightblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.nav-sidebar ul li button {
+  transition: all 0.3s ease-in-out;
+  opacity: calc(100vh - 60px);
+}
+.nav-sidebar ul li mybutton1 {
+  background-color: lightblue;
+}
+.mybutton2 {
+  background-color: lightpink;
+}
+.mybutton3 {
+  background-color: lightseagreen;
+}
+.mybutton4 {
+  background-color: lightyellow;
+}
+.mybutton5 {
+  background-color: lightsalmon;
+}
